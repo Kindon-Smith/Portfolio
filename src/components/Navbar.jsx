@@ -30,7 +30,7 @@ const Navbar = () => {
       className={`${
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-transparent" :"bg-primary"
+        scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
@@ -45,7 +45,7 @@ const Navbar = () => {
           <img src={logoWoB} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Kindon &nbsp;
-            <span className='sm:block hidden'>| Web Portfolio</span>
+            <span className='sm:block hidden'>| Software Engineer</span>
           </p>
         </Link>
 
