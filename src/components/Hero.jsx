@@ -19,6 +19,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>I develop develop video games in Unity and Unreal Engine <br className="sm:block hidden" /></p>
         </div>
       </div>
+      <ComputersCanvas />
     </section>
   )
 }
