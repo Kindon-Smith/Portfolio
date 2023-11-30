@@ -29,6 +29,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import savorsaber from "./company/savorsaber.png";
+import stadia from "./company/stadia.png";
+import firebase from "./company/firebase.png";
+import beautycon from "./company/beautycon.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -66,5 +70,9 @@ export {
   tripguide,
   unity,
   unreal,
-  cloud
+  cloud,
+  stadia,
+  beautycon,
+  firebase,
+  savorsaber,
 };
