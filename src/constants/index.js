@@ -24,6 +24,10 @@ import {
     tripguide,
     threejs,
   } from "../assets";
+
+  import cloud from "../assets/tech/cloud.png";
+  import unreal from "../assets/tech/unreal.png";
+  import unity from "../assets/tech/unity.png";
   
   export const navLinks = [
     {
@@ -46,17 +50,18 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Game Systems Engineer",
+      icon: unreal,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Game AI Engineer",
+      icon: unity,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Cloud Engineer",
+      icon: cloud,
     },
+    
   ];
   
   const technologies = [
@@ -261,6 +266,6 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
-  
+ 
   export { services, technologies, experiences, testimonials, projects };
   
