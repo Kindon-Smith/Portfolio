@@ -21,6 +21,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import unity from "./tech/unity.png";
+import unreal from "./tech/unreal.png";
+import cloud from "./tech/cloud.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -61,4 +64,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  unity,
+  unreal,
+  cloud
 };

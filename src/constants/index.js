@@ -23,11 +23,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    unity,
+    cloud,
+    unreal,
   } from "../assets";
 
-  import cloud from "../assets/tech/cloud.png";
-  import unreal from "../assets/tech/unreal.png";
-  import unity from "../assets/tech/unity.png";
   
   export const navLinks = [
     {
