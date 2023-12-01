@@ -19,6 +19,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>A software engineer with a curious mind and a passion for developing games and building out interactive experiences <br className="sm:block hidden" /></p>
         </div>
       </div>
+      
       <ComputersCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
