@@ -40,6 +40,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import savorsaberbanner from "./work/savorsaberbanner.png";
+import redrampage from "./work/redrampage.png";
+
 export {
   logoWoB,
   logoBoW,
@@ -79,4 +82,6 @@ export {
   savorsaber,
   python,
   csharp,
+  savorsaberbanner,
+  redrampage,
 };

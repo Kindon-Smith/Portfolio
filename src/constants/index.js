@@ -31,7 +31,9 @@ import {
     savorsaber,
     firebase,
     python,
-    csharp
+    csharp,
+    savorsaberbanner,
+    redrampage,
   } from "../assets";
 
   
@@ -199,67 +201,38 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Red Rampage",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Top-down 3rd-person shooter set on Mars. Built in UE 5 using a mixture of UE 5 Blueprints and CPP.",
       tags: [
         {
-          name: "react",
+          name: "c++",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
+          name: "unreal",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: redrampage,
+      source_code_link: "https://github.com/Kindon-Smith/Red-Rampage"
     },
     {
-      name: "Job IT",
+      name: "Savor Saber",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "JRPG style single-player adventure game designed around food skewer combat. Build in C# using Unity 2D.",
       tags: [
         {
-          name: "react",
+          name: "csharp",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "unity",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: savorsaberbanner,
+      source_code_link: "https://github.com/RadicalSkewerAnarchy/SavorSaber",
     },
   ];
  
