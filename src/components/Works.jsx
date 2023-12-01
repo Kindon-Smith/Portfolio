@@ -66,7 +66,7 @@ const Works = () => {
           variants={fadeIn("","",0.1,0.1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          The following projects showcase my skill, experience, and passions.
+          The following projects showcase my skill, experience, and passions. These were created out of a desire to learn and understand new systems, frameworks, and technologies.
 
         </motion.p>
       </div>
