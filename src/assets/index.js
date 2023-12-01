@@ -24,6 +24,8 @@ import threejs from "./tech/threejs.svg";
 import unity from "./tech/unity.png";
 import unreal from "./tech/unreal.png";
 import cloud from "./tech/cloud.png";
+import python from "./tech/python.png";
+import csharp from "./tech/csharp.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -75,4 +77,6 @@ export {
   beautycon,
   firebase,
   savorsaber,
+  python,
+  csharp,
 };
