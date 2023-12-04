@@ -34,6 +34,7 @@ import {
     csharp,
     savorsaberbanner,
     redrampage,
+    redrampage2,
   } from "../assets";
 
   
@@ -198,7 +199,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: redrampage,
+      image: redrampage2,
       source_code_link: "https://github.com/Kindon-Smith/Red-Rampage"
     },
     {

@@ -42,6 +42,7 @@ import tripguide from "./tripguide.png";
 
 import savorsaberbanner from "./work/savorsaberbanner.png";
 import redrampage from "./work/redrampage.png";
+import redrampage2 from "./work/redrampage2.png";
 
 export {
   logoWoB,
@@ -84,4 +85,5 @@ export {
   csharp,
   savorsaberbanner,
   redrampage,
+  redrampage2,
 };
