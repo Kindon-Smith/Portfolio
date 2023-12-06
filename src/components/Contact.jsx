@@ -7,6 +7,8 @@ import {EarthCanvas} from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import Earth from './canvas/Earth';
+import { externalLinks, navLinks } from '../constants';
+import { linkedin } from '../assets';
 
 // template_kye7ads
 // service_0bv4kxv
@@ -66,7 +68,12 @@ const Contact = () => {
           className="flex-[0.75] bg-black-100 rounded-2xl p-8"
         >
           <p className={styles.sectionSubText}>Get in touch</p>
-          <h3 className={styles.sectionHeadText}>Contact.</h3>
+          <h3 className={styles.sectionHeadText} >Contact.</h3>
+          <a href={externalLinks[0].source_link} className="flex-row black-gradient w-10 h-10 rounded-full flex justify-center
+                items-center cursor-pointer">
+              <img src={externalLinks[0].source_image} alt={externalLinks[0].source_image} />
+          </a>
+          
 
           <form
             ref={formRef}

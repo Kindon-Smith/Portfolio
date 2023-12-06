@@ -35,6 +35,7 @@ import savorsaber from "./company/savorsaber.png";
 import stadia from "./company/stadia.png";
 import firebase from "./company/firebase.png";
 import beautycon from "./company/beautycon.png";
+import linkedin from "./company/linkedin.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -86,4 +87,5 @@ export {
   savorsaberbanner,
   redrampage,
   redrampage2,
+  linkedin,
 };

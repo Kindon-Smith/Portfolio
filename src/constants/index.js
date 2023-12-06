@@ -35,6 +35,7 @@ import {
     savorsaberbanner,
     redrampage,
     redrampage2,
+    linkedin
   } from "../assets";
 
   
@@ -220,6 +221,14 @@ import {
       source_code_link: "https://github.com/RadicalSkewerAnarchy/SavorSaber",
     },
   ];
+
+  const externalLinks = [
+    {
+      name: "linkedin",
+      source_link: "https://www.linkedin.com/in/kindon-smith/",
+      source_image: linkedin,
+    },
+  ];
  
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, externalLinks };
   
