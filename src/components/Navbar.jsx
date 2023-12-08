@@ -104,6 +104,22 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              {externalLinks.map((links) => (
+                <li
+                  key={links.name}
+                  className={`${
+                    active === links.name ? "text-white" : "text-secondary"
+                  } hover:text-white text-[18px] font-medium cursor-pointer`}
+                  onClick={() => {
+                    setToggle(!toggle);
+                    window.open(links.source_link, "_blank");
+                  }}
+                >
+                  <a href={`#${links.name}`}>
+                    <img src={links.source_image} className="w-8 h-8 rounded-lg"/>
+                  </a>
+                 </li>
+          ))}
             </ul>
           </div>
         </div>
