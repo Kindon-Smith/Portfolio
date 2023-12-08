@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
-import { navLinks } from "../constants";
+import { navLinks, externalLinks } from "../constants";
 import { logoWoB, menu, close } from "../assets";
 
 const Navbar = () => {
@@ -49,7 +49,7 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden sm:flex flex-row gap-5'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -59,6 +59,19 @@ const Navbar = () => {
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
+            </li>
+          ))}
+          {externalLinks.map((links) => (
+            <li
+              key={links.name}
+              className={`${
+                active === links.name ? "text-white" : "text-secondary"
+              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              onClick={() => window.open(links.source_link, "_blank")}
+            >
+              <a href={`#${links.name}`}>
+                <img src={links.source_image} className="w-8 h-8 rounded-lg"/>
+              </a>
             </li>
           ))}
         </ul>

@@ -40,6 +40,8 @@ import linkedin from "./company/linkedin.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import resume from "./resume.png";
+import resumepdf from "./files/smithKindon2023.pdf";
 
 import savorsaberbanner from "./work/savorsaberbanner.png";
 import redrampage from "./work/redrampage.png";
@@ -88,4 +90,6 @@ export {
   redrampage,
   redrampage2,
   linkedin,
+  resume,
+  resumepdf,
 };

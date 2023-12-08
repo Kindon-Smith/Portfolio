@@ -35,7 +35,9 @@ import {
     savorsaberbanner,
     redrampage,
     redrampage2,
-    linkedin
+    linkedin,
+    resume,
+    resumepdf,
   } from "../assets";
 
   
@@ -224,10 +226,15 @@ import {
 
   const externalLinks = [
     {
-      name: "linkedin",
+      name: "LinkedIn",
       source_link: "https://www.linkedin.com/in/kindon-smith/",
       source_image: linkedin,
     },
+    {
+      name: "Resume",
+      source_link: resumepdf,
+      source_image: resume,
+    }
   ];
  
   export { services, technologies, experiences, testimonials, projects, externalLinks };
