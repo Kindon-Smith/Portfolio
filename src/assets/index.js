@@ -46,6 +46,7 @@ import resumepdf from "./files/smithKindon2023.pdf";
 import savorsaberbanner from "./work/savorsaberbanner.png";
 import redrampage from "./work/redrampage.png";
 import redrampage2 from "./work/redrampage2.png";
+import take5 from "./work/take5.png";
 
 export {
   logoWoB,
@@ -92,4 +93,5 @@ export {
   linkedin,
   resume,
   resumepdf,
+  take5,
 };

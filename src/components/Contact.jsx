@@ -69,12 +69,6 @@ const Contact = () => {
         >
           <p className={styles.sectionSubText}>Get in touch</p>
           <h3 className={styles.sectionHeadText} >Contact.</h3>
-          <a href={externalLinks[0].source_link} className="flex-row black-gradient w-10 h-10 rounded-full flex justify-center
-                items-center cursor-pointer">
-              <img src={externalLinks[0].source_image} alt={externalLinks[0].source_image} />
-          </a>
-          
-
           <form
             ref={formRef}
             onSubmit={handleSubmit}

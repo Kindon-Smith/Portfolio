@@ -38,6 +38,7 @@ import {
     linkedin,
     resume,
     resumepdf,
+    take5,
   } from "../assets";
 
   
@@ -179,11 +180,11 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I",
+      name: "",
+      designation: "",
+      company: "",
+      image: "",
     },
   ];
   
@@ -221,6 +222,23 @@ import {
       ],
       image: savorsaberbanner,
       source_code_link: "https://github.com/RadicalSkewerAnarchy/SavorSaber",
+    },
+    {
+      name: "Take 5",
+      description:
+        "Global Game Jam 2024 submission for the theme: Make Me Laugh. Built in UE with a 5-man team, we built out a strong MVP-stage game.",
+      tags: [
+        {
+          name: "c++",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "unreal",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: take5,
+      source_code_link: "https://globalgamejam.org/games/2024/take-5-7"
     },
   ];
 
